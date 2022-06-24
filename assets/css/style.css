@@ -1,4 +1,64 @@
 body, ul, li {
     margin: 0;
     padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#navImg {
+    width: 5%;
+}
+
+#navImg img {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul a {
+    padding: 0 1.5rem;
+    font-size: 1.7rem;
+    color: gold;
+    text-decoration: none;
+}
+
+nav ul a:hover {
+    background-color: rgba(rgb(121, 121, 121), rgb(121, 121, 121), rgb(121, 121, 121), 0.7);
+}
+
+#headerImg {
+    background-image: url(../img/dubai.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+
+#gradiant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.12398462803089982) 0%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-size: 2.7rem;
+    letter-spacing: 0.4rem;
+}
+
+#logoMax {
+    width: 25%;
+    height: 40%;
+    background-image: url(../img/logo.png);
+    background-position: center;
+    background-size: 110%;
+    margin: 1rem;
 }
