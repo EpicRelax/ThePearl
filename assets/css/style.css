@@ -1,10 +1,28 @@
-body,
-ul,
-li {
-    margin: 0;
-    padding: 0;
-    font-family: 'Fira Sans', sans-serif;
+@font-face {
+    font-family: "paris";
+    src: url(../font/Parisish.ttf);
+}
 
+@font-face {
+    font-family: "channel";
+    src: url(../font/Channel.ttf);
+}
+
+@font-face {
+    font-family: "parisienne";
+    src: url(../font/Parisienne-Regular.ttf);
+}
+
+header {
+    font-family: 'paris', sans-serif;
+    
+}
+
+main{
+    font-family: 'parisienne', sans-serif;
+}
+footer{
+    font-family: 'paris', sans-serif;
 }
 
 header nav {
