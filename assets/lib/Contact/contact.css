@@ -1,0 +1,116 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+header nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+#navImg {
+    width: 5%;
+}
+
+#navImg img {
+    width: 100%;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul a {
+    padding: 1.5rem 1.5rem;
+    font-size: 1.7rem;
+    color: gold;
+    text-decoration: none;
+}
+
+header nav ul a:hover {
+    background-color: white
+}
+
+#contact {
+    background-color: black;
+}
+
+#contact h2 {
+    margin: 0;
+    padding: 4rem 0 2rem 0;
+    color: gold;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#contact hr {
+    width: 70%;
+    border: none;
+    border-radius: 20px;
+    height: .15rem;
+    background-color: gold;
+}
+
+#formContact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7rem 0;
+}
+
+#contactImg img {
+     width: 100%;
+}
+
+#formContact form {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#formContact form div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#formWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+#formContact form .med {
+    width: 49.5%;
+    margin-bottom: 1rem;
+}
+ 
+#formContact input {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+}
+
+#formMess div {
+    margin-bottom: 1rem;
+}
+
+#mess {
+    height: 5rem;
+}
+
+#formContact hr {
+    height: 0.1rem;
+    margin: 0;
+}
+
+#formContact input:nth-last-child(1){
+    background-color: lightgray;
+    width: 30%;
+}
