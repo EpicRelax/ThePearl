@@ -95,6 +95,11 @@ header nav ul a:hover {
     box-sizing: border-box;
     background-color: transparent;
     border: none;
+    color: white;
+}
+
+#formContact input:focus {
+    outline: none;
 }
 
 #formMess div {
@@ -113,4 +118,6 @@ header nav ul a:hover {
 #formContact input:nth-last-child(1){
     background-color: lightgray;
     width: 30%;
+    color: black;
+    text-align: center;
 }

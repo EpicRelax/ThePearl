@@ -28,21 +28,29 @@ nav ul {
     list-style: none;
 }
 
-nav ul a {
-    padding: 0 1.5rem;
+header nav ul a {
+    padding: 1.5rem 1.5rem;
     font-size: 1.7rem;
     color: gold;
     text-decoration: none;
 }
 
-nav ul a:hover {
-    background-color: rgba(rgb(121, 121, 121), rgb(121, 121, 121), rgb(121, 121, 121), 0.7);
+header nav ul a:hover {
+    background-color: white
 }
 
 #headerImg {
     background-image: url(../img/dubai.jpg);
     background-size: cover;
     height: 80vh;
+}
+
+#logoMax {
+    width: 40%;
+}
+
+#logoMax img {
+    width: 100%;
 }
 
 #gradiant {
@@ -55,17 +63,6 @@ nav ul a:hover {
     font-size: 2.7rem;
     letter-spacing: 0.4rem;
 }
-
-#logoMax {
-    width: 25%;
-    height: 40%;
-    background-image: url(../img/logo.png);
-    background-position: center;
-    background-size: 110%;
-    margin: 1rem;
-}
-
-
 
 /* Main */
 main {
@@ -94,7 +91,7 @@ h2 {
 
 #room img {
     width: 40vw;
-
+    border-radius: 20px;
 }
 
 #description {
@@ -136,6 +133,11 @@ footer{
     color: gold;
     text-decoration: none;
 }
+#infos a {
+    text-decoration: none;
+    color: gold;
+}
+
 #infos li{
     margin: 1rem;
 }
