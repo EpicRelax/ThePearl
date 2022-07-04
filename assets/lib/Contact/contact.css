@@ -1,8 +1,16 @@
+@font-face {
+    font-family: "paris";
+    src: url(../../font/Parisish.ttf);
+}
+
+@font-face {
+    font-family: "parisienne";
+    src: url(../../font/Parisienne-Regular.ttf);
+}
+
 body, ul, li {
     margin: 0;
     padding: 0;
-    font-family: 'Fira Sans', sans-serif;
-    
 }
 
 header nav {
@@ -31,6 +39,7 @@ header nav ul a {
     font-size: 1.7rem;
     color: gold;
     text-decoration: none;
+    font-family: 'paris', sans-serif;
 }
 
 header nav ul a:hover {
@@ -45,8 +54,9 @@ header nav ul a:hover {
     margin: 0;
     padding: 4rem 0 2rem 0;
     color: gold;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     text-align: center;
+    font-family: "parisienne";
 }
 
 #contact hr {

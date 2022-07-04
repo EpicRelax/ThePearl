@@ -13,9 +13,12 @@
     src: url(../font/Parisienne-Regular.ttf);
 }
 
+body {
+    margin: 0;
+}
+
 header {
     font-family: 'paris', sans-serif;
-    
 }
 
 main{
@@ -91,7 +94,7 @@ main {
 h2 {
     margin-top: 0;
     padding: 6rem 1.5rem;
-    font-size: 1.7rem;
+    font-size: 3.5rem;
     color: gold;
     text-align: center;
 }
