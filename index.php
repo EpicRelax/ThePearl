@@ -20,7 +20,7 @@
                     <img src="./assets/img/Thepearl No BG.png" alt="Logo Pearl">
                 </div>
                 <ul>
-                    <a href="./index.html">
+                    <a href="./index.php">
                         <li>HOME</li>
                     </a>
                     <a href="">
@@ -29,7 +29,7 @@
                     <a href="">
                         <li>ACTIVITIES</li>
                     </a>
-                    <a href="./assets/lib/Contact/contact.html">
+                    <a href="./assets/lib/Contact/contact.php">
                         <li>CONTACT</li>
                     </a>
                 </ul>

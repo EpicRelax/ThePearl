@@ -17,7 +17,7 @@
                     <img src="../../img/logo.png" alt="Logo Pearl">
                 </div>
                 <ul>
-                    <a href="../../../index.html">
+                    <a href="../../../index.php">
                         <li>HOME</li>
                     </a>
                     <a href="">
@@ -26,7 +26,7 @@
                     <a href="">
                         <li>ACTIVITIES</li>
                     </a>
-                    <a href="./contact.html">
+                    <a href="./contact.php">
                         <li>CONTACT</li>
                     </a>
                 </ul>
