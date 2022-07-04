@@ -43,8 +43,9 @@ header nav ul a {
 }
 
 header nav ul a:hover {
-    background-color: white;
+    background-color: white
 }
+
 
 #contact {
     background-color: black;

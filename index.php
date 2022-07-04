@@ -29,6 +29,9 @@
                     <a href="">
                         <li>ACTIVITIES</li>
                     </a>
+                    <a href="./assets/lib/Reservation/reservation.php">
+                        <li>RESÉRVATION</li>
+                    </a>
                     <a href="./assets/lib/Contact/contact.php">
                         <li>CONTACT</li>
                     </a>

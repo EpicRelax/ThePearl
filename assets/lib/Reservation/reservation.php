@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./reservation.css">
     <title>The Pearl - Contact</title>
 </head>
 
@@ -26,10 +26,10 @@
                     <a href="">
                         <li>ACTIVITIES</li>
                     </a>
-                    <a href="../Reservation/reservation.php">
+                    <a href="reservation.php">
                         <li>RESÉRVATION</li>
                     </a>
-                    <a href="./contact.php">
+                    <a href="../Contact/contact.php">
                         <li>CONTACT</li>
                     </a>
                 </ul>
@@ -38,7 +38,7 @@
     </header>
     <main>
         <section id="contact">
-            <h2>Contact</h2>
+            <h2>Resérvation</h2>
             <hr>
             <div id="formContact">
                 <div id="contactImg">
@@ -47,33 +47,37 @@
                 <form action="">
                     <div id="formWrap">
                         <div class="med">
-                            <input type="text" placeholder="First Name">
+                            <input type="text" placeholder="First Name" name="firstName">
                             <hr>
                         </div>
                         <div class="med">
-                            <input type="text" placeholder="Last Name">
+                            <input type="text" placeholder="Last Name" name="lastName">
                             <hr>
                         </div>
                         <div class="med">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" name="email">
                             <hr>
                         </div>
                         <div class="med">
-                            <input type="tel" placeholder="Number Phone">
+                            <input type="tel" placeholder="Number Phone" name="tel">
                             <hr>
                         </div>
                     </div>
                     <div id="formMess">
                         <div>
-                            <input type="text" placeholder="Object Message">
+                            <input type="number" placeholder="Number of Personne" name="number">
                             <hr>
                         </div>
                         <div>
-                            <input id="mess" type="text" placeholder="Message">
+                            <input class="date" type="date" name="dateEntree">
                             <hr>
                         </div>
                         <div>
-                            <input git statustype="submit" value="SEND">
+                            <input class="date" type="date" name="dateSortie">
+                            <hr>
+                        </div>
+                        <div>
+                            <input git statustype="submit" value="SEND" name="submit">
                         </div>
                     </div>
                 </form>
@@ -82,5 +86,4 @@
         </section>
     </main>
 </body>
-
 </html>
