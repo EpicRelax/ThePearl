@@ -1,3 +1,29 @@
+<?php
+require "../../../bd.php";
+    if(isset($_POST["submit"])){
+        $insertionC = $pdo->prepare("INSERT INTO clients(prenom,nom,mail,tel ) values(:prenom,:nom,:mail,:tel)");
+        $insertionC->execute(
+            [
+                "prenom"=>$_POST["prenom"],
+                "nom"=>$_POST["nom"],
+                "mail"=>$_POST["mail"],
+                "tel"=>$_POST["tel"],
+                //"id_clients"=>
+            ]
+            );
+
+        $insertionR = $pdo->prepare("INSERT INTO reservation(date_arrivee,date_depart,nbr_persons,id_clients) values(:date_arrivee,:date_depart,:nbr_persons,(SELECT id_clients FROM clients ORDER BY id_clients DESC LIMIT 1))");
+        $insertionR->execute(
+            [
+                "date_arrivee"=>$_POST["date_arrivee"],
+                "date_depart"=>$_POST["date_depart"],
+                "nbr_persons"=>$_POST["nbr_persons"],
+            ]
+            );
+        
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -44,18 +70,18 @@
                 <div id="contactImg">
                     <img src="../../img/logo.png" alt="Logo Pearl">
                 </div>
-                <form action="">
+                <form action="" method="post">
                     <div id="formWrap">
                         <div class="med">
-                            <input type="text" placeholder="First Name" name="firstName">
+                            <input type="text" placeholder="First Name" name="prenom">
                             <hr>
                         </div>
                         <div class="med">
-                            <input type="text" placeholder="Last Name" name="lastName">
+                            <input type="text" placeholder="Last Name" name="nom">
                             <hr>
                         </div>
                         <div class="med">
-                            <input type="email" placeholder="Email" name="email">
+                            <input type="email" placeholder="Email" name="mail">
                             <hr>
                         </div>
                         <div class="med">
@@ -65,19 +91,19 @@
                     </div>
                     <div id="formMess">
                         <div>
-                            <input type="number" placeholder="Number of Personne" name="number">
+                            <input type="number" placeholder="Number of Personne" name="nbr_persons">
                             <hr>
                         </div>
                         <div>
-                            <input class="date" type="date" name="dateEntree">
+                            <input class="date" type="date" name="date_arrivee">
                             <hr>
                         </div>
                         <div>
-                            <input class="date" type="date" name="dateSortie">
+                            <input class="date" type="date" name="date_depart">
                             <hr>
                         </div>
                         <div>
-                            <input git statustype="submit" value="SEND" name="submit">
+                            <input type="submit" value="SEND" name="submit">
                         </div>
                     </div>
                 </form>

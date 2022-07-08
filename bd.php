@@ -5,8 +5,11 @@ $pdo = new PDO("mysql:host=localhost;dbname=hotel;charset=utf8", "root", "", [
 ]);
 $error = null;
 try {
-    $statement = $pdo->query('SELECT * from reservation');
-    $reservation = $statement->fetchAll();
+    $statementR = $pdo->query('SELECT * from reservation');
+    $reservation = $statementR->fetchAll();
+
+    $statementC = $pdo->query('SELECT * from clients');
+    $reservation = $statementC->fetchAll();
     //var_dump($vehicules);
 } catch (PDOException $e){
     echo $error = $e->getMessage();
