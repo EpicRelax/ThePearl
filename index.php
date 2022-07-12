@@ -44,7 +44,7 @@
         </div>
     </header>
     <main>
-
+    
         <h2>Our Hotel</h2>
         <div id="service">
             <div id="room">
@@ -82,7 +82,16 @@
                     <p>Birthdays, anniversaries, promotions… or perhaps it’s simply the start of the weekend that calls for a celebration. When a special occasion arises, we have the perfect beachside restaurants for you to truly live the moment. Whether you’ve just arrived in California for a special holiday or you’re a long-time resident celebrating a momentous anniversary, our dedicated teams are always on hand to make it a sensational experience. Explore the best beach restaurants for an unforgettable celebration.</p>
                 </div>
             </div>
+            <br>
+            <br>
+            <br>
+            <br>
 
+            <div id="review">
+                    <h3>WHAT OUR GUESTS HAVE TO SAY ABOUT US...</h3>
+                    <p>"Home away from home" - Mlon Eusk <br> "The best place to be after being in front of a mirror" - Beff Jezos <br>"Microsoft headquarters 2" - Gill Bates <br> "I learnt how to rob people legally here!" - Barren Wuffett</p>
+                
+            </div>
         </div>
 
 
