@@ -44,7 +44,7 @@
         </div>
     </header>
     <main>
-    
+
         <h2>Our Hotel</h2>
         <div id="service">
             <div id="room">
@@ -88,8 +88,10 @@
             <br>
 
             <div id="review">
+                <div>
                     <h4>WHAT SOME OUR GUESTS HAVE TO SAY ABOUT US...</h4>
-                    <p>"Home away from home" - Mlon Eusk <br> "The best place to be after being in front of a mirror" - Beff Jezos <br>"Microsoft headquarters 2" - Gill Bates <br> "I learnt how to rob people legally here!" - Barren Wuffett</p>
+                    <p>"Home away from home" - Mlon Eusk <br> "The best place to be after being in front of a mirror" - Beff Jezos <br>"Microsoft headquarters 2" - Gill Bates <br> "I learnt how to rob people legally here!" - Barren Wuffett <br>"How earth was supposed to be before you guys messed it up" - God <br>"When I come back from the dead to visit the living I come here" - Julius Cesar</p>
+                </div>
                 
             </div>
         </div>
