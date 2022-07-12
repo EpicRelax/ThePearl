@@ -13,6 +13,11 @@
     src: url(../font/Parisienne-Regular.ttf);
 }
 
+@font-face {
+    font-family: "sarabun";
+    src: url(../font/Sarabun-Regular.ttf);
+}
+
 body {
     margin: 0;
 }
@@ -22,7 +27,7 @@ header {
 }
 
 main{
-    font-family: 'parisienne', sans-serif;
+    font-family: "sarabun", sans-serif;
 }
 footer{
     font-family: 'paris', sans-serif;
@@ -57,7 +62,8 @@ header nav ul a {
 }
 
 header nav ul a:hover {
-    background-color: white
+    background-color: rgba(63, 63, 63, 0.87);
+    border-radius: 10%;
 }
 
 #headerImg {
@@ -90,6 +96,8 @@ main {
     background-color: black;
     padding-bottom: 10rem;
 }
+
+
 
 h2 {
     margin-top: 0;
@@ -125,6 +133,12 @@ h2 {
     
 }
 
+#banner{
+    height: 10vh;
+    width: 100%;
+    background-color: gray;
+    
+}
 
 /* Footer */
 
