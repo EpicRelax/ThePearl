@@ -88,7 +88,7 @@
             <br>
 
             <div id="review">
-                    <h3>WHAT OUR GUESTS HAVE TO SAY ABOUT US...</h3>
+                    <h4>WHAT SOME OUR GUESTS HAVE TO SAY ABOUT US...</h4>
                     <p>"Home away from home" - Mlon Eusk <br> "The best place to be after being in front of a mirror" - Beff Jezos <br>"Microsoft headquarters 2" - Gill Bates <br> "I learnt how to rob people legally here!" - Barren Wuffett</p>
                 
             </div>
